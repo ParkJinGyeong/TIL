@@ -41,3 +41,12 @@ git config --global user.email로 "이메일"
     ```
 
 git remote add origin https://github.com/ParkJinGyeong/TIL.git origin이 여기서 올리고 싶은 url을 말함 
+
+## remote add
+- 원격저장소의 주소를 저장하는 명령어 
+
+```bash
+git remote add (remote_name)(remote_url)
+```
+## push
+- 원격저장소의 브랜치를 업로드 하는 명령어
