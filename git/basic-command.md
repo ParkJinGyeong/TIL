@@ -13,7 +13,7 @@ git init
 *개발 생태계에서 책이라는건 버전이 느린 데이터들이기 때문에 검색을 통해서 기술을 만든 회사의 공식 문서를 보는 것을 추천
 
 ## add
-띄어쓰기 조심 ! / git add 할 때 위치를 확실히 하기 (예를들어 상위 위치에서 깃을 추가하는거랑 하위 위치에서 깃을 add하는 거랑 충돌할 수 있기 때문. 내가 관리하고자 하는 위치에서만 깃을 add 하면 됨) / git 추가하다가 충돌하면 깃을 지우면 됨 (rm -r)
+무대 위로 올려주는 것/띄어쓰기 조심 ! / git add 할 때 위치를 확실히 하기 (예를들어 상위 위치에서 깃을 추가하는거랑 하위 위치에서 깃을 add하는 거랑 충돌할 수 있기 때문. 내가 관리하고자 하는 위치에서만 깃을 add 하면 됨) / git 추가하다가 충돌하면 깃을 지우면 됨 (rm -r)
 
 ```bash
 git add .
@@ -26,6 +26,7 @@ git status
 ```
 
 ## commit
+사진 찍는 단계
 git commit만 쓰면 author identity를 물어봄
 git config --global user.email로 "이메일"
 
@@ -39,3 +40,4 @@ git config --global user.email로 "이메일"
     git commit -m "first commit"
     ```
 
+git remote add origin https://github.com/ParkJinGyeong/TIL.git origin이 여기서 올리고 싶은 url을 말함 
